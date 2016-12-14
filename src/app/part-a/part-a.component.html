@@ -1,5 +1,28 @@
 
 
+<h3>Temperature Unit Converter</h3>
+<h3>Enter celcius and recive degress</h3>
 
 
+
+
+<html ng-app="converter">
+
+<head>
+	<meta charset="utf-8">
+	<title>Temperature Converter</title>
+	<script src="//code.angularjs.org/1.2.16/angular.js"></script>
+	<script src="app.js"></script>
+</head>
+
+<body ng-controller="MainController">
+
+	<div>
+		<input type="number" ng-model="a">℃ ⟷
+		<input type="number" ng-model="a" converter="c2f">℉
+	</div>
+
+</body>
+
+</html>
 

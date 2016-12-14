@@ -1,4 +1,3 @@
-
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -9,12 +8,12 @@ import { Component, OnInit } from '@angular/core';
 export class PartAComponent implements OnInit {
 
   constructor() { }
+  
 
   ngOnInit() {
   }
 
 }
-
 
 
 
