@@ -7,12 +7,14 @@ import {routes } from './app.router';
 import { AppComponent } from './app.component';
 import { PartAComponent } from './part-a/part-a.component';
 import { PartBComponent } from './part-b/part-b.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PartAComponent,
-    PartBComponent
+    PartBComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
